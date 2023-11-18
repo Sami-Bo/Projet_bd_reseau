@@ -1,0 +1,99 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+.img-nasa {
+    border-radius: 5px;
+}
+
+.img-movie-consulted {
+    object-fit: cover;
+    max-height: 665px;
+    border-radius: 10px;
+}
+
+.imgtop20{
+    width: 30%;
+    height: auto;
+}
+
+.card {
+    width: 14rem;
+    min-width: 12rem;
+}
+.card-large {
+    width: 100%;
+}
+
+/* ABOUT */
+.profile-card {
+    width: auto;
+    height:100%;
+    max-width: 500px;
+}
+.profile-image {
+    max-height:150px;
+    object-fit: cover;
+}
+span{
+    display:inline-block;
+    height:17px;
+}
+.logo-head{
+    width :auto ;
+    height: 24px;
+}
+.hover11 img {
+	opacity: 0.5;
+	transition: .3s ease-in-out;
+}
+.hover11 img:hover {
+	opacity: 1;
+}
+
+.ryan{top: 70px;
+    position: fixed;
+    right: 0;background-color:#009688!important}
+
+.ryanButton{
+    cursor: pointer;
+}
+
+
+div#fixed {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: 500px;
+    border: 3px solid #73AD21;
+}
+#choice {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#choice td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#choice tr:nth-child(even){background-color: #f2f2f2;}
+  
+#choice tr:hover {background-color: #ddd;}
+  
+#choice th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
